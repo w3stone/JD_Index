@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Item</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/item.css" />
+		<script type="text/javascript" src="js/jquery-1.12.4.min.js" ></script>
+		<script type="text/javascript" src="js/jquery_plugins.js" ></script>
+		<script type="text/javascript" src="js/item.js" ></script>
+	</head>
+	<body>
+		<div class="header">
+			<div class="top">
+				<div class="inner">
+					<div class="diqu">送至：北京<i>◇</i></div>
+					<ul>
+						<li>你好，请<a href="javascript:;" class="log">登录</a><a href="javascript:;" class="spec">免费注册</a></li>
+						<li class="line"></li>
+						<li><a href="javascript:;">我的订单</a></li>
+						<li class="line"></li>
+						<li><a href="javascript:;" class="active">我的京东<i>◇</i></a></li>
+						<li class="line"></li>
+						<li><a href="javascript:;">京东会员</a></li>
+						<li class="line"></li>
+						<li><a href="javascript:;">企业采购</a></li>
+						<li class="line"></li>
+						<li><a href="javascript:;" class="active"><span></span>手机京东<i>◇</i></a></li>
+						<li class="line"></li>
+						<li><a href="javascript:;" class="active">关注京东<i>◇</i></a></li>
+						<li class="line"></li>
+						<li><a href="javascript:;" class="active">客户服务<i>◇</i></a></li>
+						<li class="line"></li>
+						<li><a href="javascript:;" class="active">网站导航<i>◇</i></a></li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="mid inner">
+				<div class="logo">
+					<img src="images/logo-201305.png">
+				</div>
+				<div class="form">
+					<form>
+						<input type="text" value="卡通手机壳" class="text">
+						<input type="button" value="搜索" class="btn">
+					</form>
+					<div class="key_tags">
+						<a href="javascript:;" class="active">七夕礼品</a>
+						<a href="javascript:;">消暑神器</a>
+						<a href="javascript:;">农用物资</a>
+						<a href="javascript:;">鲜花99元</a>
+						<a href="javascript:;">电影京券</a>
+						<a href="javascript:;">防晒喷雾</a>
+						<a href="javascript:;">永生花</a>
+						<a href="javascript:;">小米电脑</a>
+						<a href="javascript:;">thinkpad</a>
+					</div>
+				</div>
+				<div class="buy">
+					<a href="javascript:;">我的购物车</a>
+					<i>></i>
+					<div class="numeral">
+						<span>0</span>
+					</div>
+				</div>
+			</div>
+			
+			<div class="nav inner clearfix">
+				<div class="title">全部商品分类</div>
+				<ul>
+					<li><a href="javascript:;">服装城</a></li>
+					<li><a href="javascript:;">美妆馆</a></li>
+					<li><a href="javascript:;">京东超市</a></li>
+					<li><a href="javascript:;">生鲜</a></li>
+					<li><a href="javascript:;">全球购</a></li>
+					<li><a href="javascript:;">闪购</a></li>
+					<li><a href="javascript:;">团购</a></li>
+					<li><a href="javascript:;">拍卖</a></li>
+					<li><a href="javascript:;">金融</a></li>
+				</ul>
+			</div>	
+			
+		</div>
+		
+		<!--物品详情-->
+		<div class="item_box">
+			<!---->
+			<div class="item_top">
+				<div class="inner">
+					<div class="left">
+						<div class="item first"><a href="javascript:;">手机</a></div>
+						<div class="item sep">></div>
+						<div class="item second"><a href="javascript:;">手机通讯</a></div>
+						<div class="item sep">></div>
+						<div class="item third"><a href="javascript:;">手机</a></div>
+						<div class="item sep">></div>
+						<div class="item">
+							<span class="brand"><a href="javascript:;">Apple</a><i>◇</i></span>
+						</div>
+						<div class="item sep">></div>
+						<div class="item fifth"><a href="javascript:;">Apple iPhone 7</a></div>
+					</div>
+					<div class="right">
+						<div class="name"><a href="javascript:;">京东Apple产品专营店</a><span>JD</span><em>自营</em></div>
+						<div class="supplier"><em></em><a href="javascript:;">联系供应商</a></div>
+						<div class="jimi"><em></em><a href="javascript:;">JIMI</a></div>
+						<div class="follow"><em></em><a href="javascript:;">关注店铺</a></div>
+					</div>
+					
+				</div>
+			</div>
+			
+			<!--产品-->
+			<div class="product inner clearfix">
+				<div class="left">
+					<!--图片区-->
+					<div class="pic" id="bigItem"><img src="images/item/item_pic_01.jpg"></div>
+					<div class="pics_box">
+						<div class="arrow arrow_left" id="bigArrowL"></div>
+						<div class="arrow arrow_right" id="bigArrowR" ></div>
+						<!--下方图片栏-->
+						<ul class="pic_list clearfix">
+							<li class="small_pic"><img src="images/item/item_pic_01.jpg"></li>
+							<li class="small_pic"><img src="images/item/item_pic_02.jpg"></li>
+							<li class="small_pic"><img src="images/item/item_pic_03.jpg"></li>
+							<li class="small_pic"><img src="images/item/item_pic_04.jpg"></li>
+							<li class="small_pic"><img src="images/item/item_pic_05.jpg"></li>
+							<li class="small_pic"><img src="images/item/item_pic_06.jpg"></li>
+						</ul>
+					</div>
+					<!--左边底部按钮-->
+					<div class="left_btns">
+						<a href="javascript:;">关注</a>
+						<a href="javascript:;" class="fenxiang">分享</a>
+						<a href="javascript:;" class="duibi">对比</a>
+					</div>
+					
+				</div>
+				
+				<!--右边-->
+				<div class="right">
+					<h2>Apple iPhone 7 (A1660) 128G 黑色 移动联通电信4G手机</h2>
+					<p class="news">更多iPhone<a href="javascript:;">点此关注！</a></p>
+					<p class="news">选择下方购买方式的【移动】【电信】【联通】优惠购，套餐有优惠，还有话费返还！</p>
+					
+					<!--价格详情-->
+					<div class="summary_price">
+						<!--评论数量-->
+						<div class="comment_count">
+							<p class="comment">累计评价</p>
+							<a href="javascript:;">7.1万+</a>
+						</div>
+						<!--京东价格-->
+						<dl class="jd_price clearfix">
+							<dt>京 <em class="em"></em>东<em class="em"></em>价</dt>
+							<dd><span>￥</span>6488.00<a href="javascript:;">降价通知</a></dd>
+						</dl>
+						<dl class="sale_price clearfix">
+							<dt>促　　销</dt>
+							<dd><em>换购</em>购买1件可优惠换购热销商品 立即换购 >></dd>
+							<dd style="margin-left: 70px;"><em>满赠</em>满100.00元即赠热销商品，赠完即止，请在购物车点击领取 详情 >></dd>
+						</dl>
+						
+					</div>
+					
+					<div class="all_service">
+						<!--增值服务-->
+						<dl class="support clearfix">
+							<dt>增值业务</dt>
+							<dd><em></em><a href="javascript:;">以旧换新，闲置回收</a></dd>
+							<dd><em class="two"></em><a href="javascript:;">4G套餐18元起</a></dd>
+							<dd><em class="three"></em><a href="javascript:;">礼品套装</a></dd>
+						</dl>
+						
+						<!--配送-->
+						<dl class="stock clearfix">
+							<dt class="stock_dt">配 <em class="em"></em>送<em class="em"></em>至</dt>
+							
+							<dd class="address">
+								<a href="javascript:;">北京朝阳区三环以内</a><i class="arr-close">◇</i>
+							</dd>
+							<!--地址详情-->
+							<dd class="address_content">
+								<div class="address_selected clearfix">
+									<strong>选择新地址</strong><i id="address_btn">◇</i>
+								</div>
+								<div class="address_detial">
+									<ul class="address_tab clearfix">
+										<li><span>北京市</span></li>
+										<li><span>请选择</span></li>
+										<li><span>请选择</span></li>
+									</ul>
+									<ul class="address_list clearfix"></ul>
+									<ul class="address_list clearfix"></ul>
+									<ul class="address_list clearfix"></ul>
+								</div>
+							</dd>
+							
+							<dd class="store-prompt">有货</dd>
+							
+							<dd>
+								<dl class="support_title clearfix">
+									<dt>支持</dt>
+									<dd><a href="javascript:;">99元免基础运费(50kg内)</a></dd>
+									<dd><a href="javascript:;">货到付款</a></dd>
+									<dd><a href="javascript:;">次日达</a></dd>
+									<dd><a href="javascript:;" class="last">自提</a></dd>
+								</dl>
+							</dd>
+							<dd class="service">由<span> 京东 </span>发货，并提供售后服务。现在至明天23:00前下单,预计<span class="date">06月22日(周四)</span>送达</dd>
+						</dl>
+						
+						<!--重量-->
+						<dl class="weight clearfix">
+							<dt>重　　量</dt>
+							<dd>0.39kg</dd>
+						</dl>
+						
+					</div>
+					
+					<!--版本选择-->
+					<div class="choose">
+						<dl class="choosetype color clearfix">
+							<dt>选择颜色</dt>
+							<dd class="golden">金色</dd>
+							<dd class="pink">玫瑰红色</dd>
+							<dd class="silvery">银色</dd>
+							<dd class="black">黑色</dd>
+							<dd class="superBlack">亮黑色</dd>
+							<dd class="red">红色特别版</dd>
+						</dl>
+						<dl class="choosetype clearfix">
+							<dt>选择版本</dt>
+							<dd>公开版</dd>
+							<dd>双网通</dd>
+						</dl>
+						<dl class="choosetype clearfix">
+							<dt>购买方式</dt>
+							<dd>移动优惠购</dd>
+							<dd>联通优惠购</dd>
+							<dd>电信优惠购</dd>
+						</dl>
+						<!--增值保障-->
+						<dl class="choosetype zz_service clearfix">
+							<dt>增值保障</dt>
+							<!--1-->
+							<dd>
+								<img src="images/item/zz_icon01.png">碎屏保半年<span>￥309</span><i class="arr-close">◇</i>
+								<div class="zz_detial">
+									<div>
+										<input type="checkbox" >
+										<span class="youhui">优惠</span>
+										<a href="javascript:;">
+											碎屏保半年<span>￥309</span>
+											<span class="detial">详情>></span>
+										</a>
+									</div>
+									<div>
+										<input type="checkbox" >
+										<span class="youhui">优惠</span>
+										<a href="javascript:;">
+											碎屏保1年<span>￥519</span>
+											<span class="detial">详情>></span>
+										</a>
+									</div>
+								</div>
+							</dd>
+							<!--2-->
+							<dd>
+								<img src="images/item/zz_icon02.png">手机升级保<span>￥499</span><i class="arr-close">◇</i>
+								<div class="zz_detial">
+									<div>
+										<input type="checkbox" >
+										<a href="javascript:;">
+											手机升级保<span>￥499</span>
+											<span class="detial">详情>></span>
+										</a>
+									</div>
+									<div>
+										<input type="checkbox" >
+										<a href="javascript:;">
+											延长保1年<span>￥259</span>
+											<span class="detial">详情>></span>
+										</a>
+									</div>
+									<div>
+										<input type="checkbox" >
+										<a href="javascript:;">
+											延长保1年<span>￥459</span>
+											<span class="detial">详情>></span>
+										</a>
+									</div>
+									<div>
+										<input type="checkbox" >
+										<a href="javascript:;">
+											第二年换新<span>￥398</span>
+											<span class="detial">详情>></span>
+										</a>
+									</div>
+								</div>
+							</dd>
+							<!--3-->
+							<dd>
+								<img src="images/item/zz_icon03.png">无理由2年<span>￥1449</span><i class="arr-close">◇</i>
+								<div class="zz_detial">
+									<div>
+										<input type="checkbox" >
+										<a href="javascript:;">
+											无理由2年<span>￥1449</span>
+											<span class="detial">详情>></span>
+										</a>
+									</div>
+									<div>
+										<input type="checkbox" >
+										<a href="javascript:;">
+											电池爆炸保<span>￥19</span>
+											<span class="detial">详情>></span>
+										</a>
+									</div>
+								</div>
+							</dd>
+						</dl>
+						
+						<dl class="choosetype baitiao clearfix">
+							<dt>白条分期</dt>
+							<dd>不分期</dd>
+							<dd>￥1896×3期 </dd>
+							<dd>￥948×6期</dd>
+							<dd>￥488.22×12期</dd>
+							<dd>￥265.44×24期</dd>
+						</dl>
+					</div>
+					<!--购买数量-->
+					<div class="quantity clearfix">
+						<span id="quanNum">1</span>
+						<div>
+							<span type="button" class="quan_btn" id="plusBtn">+</span>
+							<span type="button" class="quan_btn disabled" id="minusBtn">-</span>
+						</div>
+						<button type="button" class="add_btn" id="addButton">加入购物车</button>
+					</div>
+					<!--温馨提示-->
+					<div class="local_tips">
+						<dl class="clearfix">
+							<dt>本地活动</dt>
+							<dd><em>·</em><a href="javascript:;">全国流量低至5元1GB >></a></dd>
+						</dl>
+						<dl class="clearfix">
+							<dt>温馨提示</dt>
+							<dd><em>·</em>支持7天无理由退货</dd>
+						</dl>	
+					</div>
+					
+				</div>
+				
+				
+			</div>
+			
+		
+			<!--配件-->
+			<div class="fittings inner clearfix">
+				<!--配件上部-->
+				<div class="tab_main">
+					<ul class="clearfix">
+						<li><a href="javascript:;">人气配件</a></li>
+						<li><a href="javascript:;">手机贴膜</a></li>
+						<li><a href="javascript:;">手机壳</a></li>
+						<li><a href="javascript:;">移动电源</a></li>
+						<li><a href="javascript:;">数据线</a></li>
+						<li><a href="javascript:;">充电器</a></li>
+						<li><a href="javascript:;">更多<i>◇</i></a></li>
+					</ul>
+				</div>
+				<!--配件下部-->
+				<div class="tab_con clearfix">
+					<!--左边-->
+					<div class="master">
+						<div class="this_item fitting_item">
+							<div class="pic"><img src="images/item/item_pic_01.jpg"></div>
+							<p><a href="javascript:;">Apple iPhone 7 Plus (A1661) 128G 亮黑色 移动联通电信4G手机</a></p>
+						</div>
+						<em>+</em>
+					</div>
+					<!--中间-->
+					<div class="fittings_wrap">
+						<div class="fitting_blank blank_left">
+							<div class="arrow arrow_left" id="fittingArrowL"></div>
+						</div>
+						<div class="fitting_blank blank_right">
+							<div class="arrow arrow_right" id="fittingArrowR"></div>
+						</div>
+						<!--第一列-->
+						<ul class="fitting_suits clearfix">
+							<li class="fitting_item">
+								<div class="pic"><img src="images/item/fitting_item_01.jpg"></div>
+								<p><a href="javascript:;">【2片装】品炫iphone7 plus/6s plus/6 plus钢化膜 苹果7 plus/6s plus/6 plus手机贴膜（赠贴膜神器）</a></p>
+								<input type="checkbox"><span>￥7.80</span>
+							</li>
+							<li class="fitting_item">
+								<div class="pic"><img src="images/item/fitting_item_02.jpg"></div>
+								<p><a href="javascript:;">【手机壳膜四件套】YOMO 苹果7 Plus手机壳保护套 iPhone7 Plus手机壳硬壳红色黑色 TPU硅胶套透明壳 iPhone7 Plus钢化膜</a></p>
+								<input type="checkbox"><span>￥29.90</span>
+							</li>
+							<li class="fitting_item">
+								<div class="pic"><img src="images/item/fitting_item_03.jpg"></div>
+								<p><a href="javascript:;">小米(MI) 20000毫安 移动电源2/大容量充电宝 双USB输出 双向快充 聚合物 适用于平板/手机等</a></p>
+								<input type="checkbox"><span>￥149.00</span>
+							</li>
+							<li class="fitting_item">
+								<div class="pic"><img src="images/item/fitting_item_04.jpg"></div>
+								<p><a href="javascript:;">奥睿科（ORICO）LTF 苹果数据线/手机充电线 尼龙快速充电数据线 iPhone5s/6s/7/Plus 1米 黑色</a></p>
+								<input type="checkbox"><span>￥8.80</span>
+							</li>
+							<li class="fitting_item">
+								<div class="pic"><img src="images/item/fitting_item_05.jpg"></div>
+								<p><a href="javascript:;">Capshi 苹果7/6/5s数据线 充电线1米+1A手机充电器插头套装 适于苹果iPhone5/6s/7plus/ipad mini</a></p>
+								<input type="checkbox"><span>￥25.00</span>
+							</li>
+							<li class="fitting_item list2">
+								<div class="pic"><img src="images/item/fitting_item_06.jpg"></div>
+								<p><a href="javascript:;">小米蓝牙耳机青春版 白色 挂耳式无线运动 通用耳塞</a></p>
+								<input type="checkbox"><span>￥59.00</span>
+							</li>
+						</ul>
+						<!--第二列-->
+						<ul class="fitting_suits clearfix">
+							<li class="fitting_item">
+								<div class="pic"><img src="images/item/fitting_item_01.jpg"></div>
+								<p><a href="javascript:;">【2片装】品炫iphone7 plus/6s plus/6 plus钢化膜 苹果7 plus/6s plus/6 plus手机贴膜（赠贴膜神器）</a></p>
+								<input type="checkbox"><span>￥7.80</span>
+							</li>
+							<li class="fitting_item">
+								<div class="pic"><img src="images/item/fitting_item_02.jpg"></div>
+								<p><a href="javascript:;">【手机壳膜四件套】YOMO 苹果7 Plus手机壳保护套 iPhone7 Plus手机壳硬壳红色黑色 TPU硅胶套透明壳 iPhone7 Plus钢化膜</a></p>
+								<input type="checkbox"><span>￥29.90</span>
+							</li>
+							<li class="fitting_item">
+								<div class="pic"><img src="images/item/fitting_item_03.jpg"></div>
+								<p><a href="javascript:;">小米(MI) 20000毫安 移动电源2/大容量充电宝 双USB输出 双向快充 聚合物 适用于平板/手机等</a></p>
+								<input type="checkbox"><span>￥149.00</span>
+							</li>
+						</ul>
+						<!--第三列-->
+						<ul class="fitting_suits clearfix">
+							<li class="fitting_item">
+								<div class="pic"><img src="images/item/fitting_item_01.jpg"></div>
+								<p><a href="javascript:;">【2片装】品炫iphone7 plus/6s plus/6 plus钢化膜 苹果7 plus/6s plus/6 plus手机贴膜（赠贴膜神器）</a></p>
+								<input type="checkbox"><span>￥7.80</span>
+							</li>
+							<li class="fitting_item">
+								<div class="pic"><img src="images/item/fitting_item_04.jpg"></div>
+								<p><a href="javascript:;">奥睿科（ORICO）LTF 苹果数据线/手机充电线 尼龙快速充电数据线 iPhone5s/6s/7/Plus 1米 黑色</a></p>
+								<input type="checkbox"><span>￥8.80</span>
+							</li>
+							<li class="fitting_item">
+								<div class="pic"><img src="images/item/fitting_item_05.jpg"></div>
+								<p><a href="javascript:;">Capshi 苹果7/6/5s数据线 充电线1米+1A手机充电器插头套装 适于苹果iPhone5/6s/7plus/ipad mini</a></p>
+								<input type="checkbox"><span>￥25.00</span>
+							</li>
+							<li class="fitting_item list2">
+								<div class="pic"><img src="images/item/fitting_item_06.jpg"></div>
+								<p><a href="javascript:;">小米蓝牙耳机青春版 白色 挂耳式无线运动 通用耳塞</a></p>
+								<input type="checkbox"><span>￥59.00</span>
+							</li>
+						</ul>
+						<!--第四列-->
+						<ul class="fitting_suits clearfix">
+							<li class="fitting_item">
+								<div class="pic"><img src="images/item/fitting_item_01.jpg"></div>
+								<p><a href="javascript:;">【2片装】品炫iphone7 plus/6s plus/6 plus钢化膜 苹果7 plus/6s plus/6 plus手机贴膜（赠贴膜神器）</a></p>
+								<input type="checkbox"><span>￥7.80</span>
+							</li>
+							<li class="fitting_item">
+								<div class="pic"><img src="images/item/fitting_item_04.jpg"></div>
+								<p><a href="javascript:;">奥睿科（ORICO）LTF 苹果数据线/手机充电线 尼龙快速充电数据线 iPhone5s/6s/7/Plus 1米 黑色</a></p>
+								<input type="checkbox"><span>￥8.80</span>
+							</li>
+							<li class="fitting_item">
+								<div class="pic"><img src="images/item/fitting_item_02.jpg"></div>
+								<p><a href="javascript:;">【手机壳膜四件套】YOMO 苹果7 Plus手机壳保护套 iPhone7 Plus手机壳硬壳红色黑色 TPU硅胶套透明壳 iPhone7 Plus钢化膜</a></p>
+								<input type="checkbox"><span>￥29.90</span>
+							</li>
+							<li class="fitting_item list2">
+								<div class="pic"><img src="images/item/fitting_item_06.jpg"></div>
+								<p><a href="javascript:;">小米蓝牙耳机青春版 白色 挂耳式无线运动 通用耳塞</a></p>
+								<input type="checkbox"><span>￥59.00</span>
+							</li>
+							<li class="fitting_item">
+								<div class="pic"><img src="images/item/fitting_item_03.jpg"></div>
+								<p><a href="javascript:;">小米(MI) 20000毫安 移动电源2/大容量充电宝 双USB输出 双向快充 聚合物 适用于平板/手机等</a></p>
+								<input type="checkbox"><span>￥149.00</span>
+							</li>
+							<li class="fitting_item">
+								<div class="pic"><img src="images/item/fitting_item_05.jpg"></div>
+								<p><a href="javascript:;">Capshi 苹果7/6/5s数据线 充电线1米+1A手机充电器插头套装 适于苹果iPhone5/6s/7plus/ipad mini</a></p>
+								<input type="checkbox"><span>￥25.00</span>
+							</li>
+						</ul>
+						<!--第五列-->
+						<ul class="fitting_suits clearfix">
+							<li class="fitting_item">
+								<div class="pic"><img src="images/item/fitting_item_01.jpg"></div>
+								<p><a href="javascript:;">【2片装】品炫iphone7 plus/6s plus/6 plus钢化膜 苹果7 plus/6s plus/6 plus手机贴膜（赠贴膜神器）</a></p>
+								<input type="checkbox"><span>￥7.80</span>
+							</li>
+							<li class="fitting_item list2">
+								<div class="pic"><img src="images/item/fitting_item_06.jpg"></div>
+								<p><a href="javascript:;">小米蓝牙耳机青春版 白色 挂耳式无线运动 通用耳塞</a></p>
+								<input type="checkbox"><span>￥59.00</span>
+							</li>
+							<li class="fitting_item">
+								<div class="pic"><img src="images/item/fitting_item_03.jpg"></div>
+								<p><a href="javascript:;">小米(MI) 20000毫安 移动电源2/大容量充电宝 双USB输出 双向快充 聚合物 适用于平板/手机等</a></p>
+								<input type="checkbox"><span>￥149.00</span>
+							</li>
+							<li class="fitting_item">
+								<div class="pic"><img src="images/item/fitting_item_05.jpg"></div>
+								<p><a href="javascript:;">Capshi 苹果7/6/5s数据线 充电线1米+1A手机充电器插头套装 适于苹果iPhone5/6s/7plus/ipad mini</a></p>
+								<input type="checkbox"><span>￥25.00</span>
+							</li>
+						</ul>
+						<!--第六列-->
+						<ul class="fitting_suits clearfix">
+							<li class="fitting_item">
+								<div class="pic"><img src="images/item/fitting_item_04.jpg"></div>
+								<p><a href="javascript:;">奥睿科（ORICO）LTF 苹果数据线/手机充电线 尼龙快速充电数据线 iPhone5s/6s/7/Plus 1米 黑色</a></p>
+								<input type="checkbox"><span>￥8.80</span>
+							</li>
+							<li class="fitting_item">
+								<div class="pic"><img src="images/item/fitting_item_02.jpg"></div>
+								<p><a href="javascript:;">【手机壳膜四件套】YOMO 苹果7 Plus手机壳保护套 iPhone7 Plus手机壳硬壳红色黑色 TPU硅胶套透明壳 iPhone7 Plus钢化膜</a></p>
+								<input type="checkbox"><span>￥29.90</span>
+							</li>
+							<li class="fitting_item list2">
+								<div class="pic"><img src="images/item/fitting_item_06.jpg"></div>
+								<p><a href="javascript:;">小米蓝牙耳机青春版 白色 挂耳式无线运动 通用耳塞</a></p>
+								<input type="checkbox"><span>￥59.00</span>
+							</li>
+							<li class="fitting_item">
+								<div class="pic"><img src="images/item/fitting_item_03.jpg"></div>
+								<p><a href="javascript:;">小米(MI) 20000毫安 移动电源2/大容量充电宝 双USB输出 双向快充 聚合物 适用于平板/手机等</a></p>
+								<input type="checkbox"><span>￥149.00</span>
+							</li>
+							<li class="fitting_item">
+								<div class="pic"><img src="images/item/fitting_item_05.jpg"></div>
+								<p><a href="javascript:;">Capshi 苹果7/6/5s数据线 充电线1米+1A手机充电器插头套装 适于苹果iPhone5/6s/7plus/ipad mini</a></p>
+								<input type="checkbox"><span>￥25.00</span>
+							</li>
+						</ul>
+						
+						
+					</div>
+					<!--右边-->
+					<div class="equal">
+						<em>=</em>
+						<div class="selected">已选择<span>0</span>个配件</div>
+						<div class="d_price">组合价<span>￥6488.00</span></div>
+						<button type="button">立即购买</button>
+						<div class="fit"><a href="javascript:;">配件选购中心</a></div>
+					</div>
+					
+					
+				</div>
+				
+			</div>
+		
+		</div>
+	
+		<!--底部-->
+		<div class="footer inner">
+			<dl>
+				<dt>购物指南</dt>
+				<dd><a href="javascript:;">购物流程</a></dd>
+				<dd><a href="javascript:;">会员介绍</a></dd>
+				<dd><a href="javascript:;">生活旅行/团购</a></dd>
+				<dd><a href="javascript:;">常见问题</a></dd>
+				<dd><a href="javascript:;">大家电</a></dd>
+				<dd><a href="javascript:;">联系客服</a></dd>
+			</dl>
+			<dl>
+				<dt>配送方式</dt>
+				<dd><a href="javascript:;">上门自提</a></dd>
+				<dd><a href="javascript:;">211限时达</a></dd>
+				<dd><a href="javascript:;">配送服务查询</a></dd>
+				<dd><a href="javascript:;">配送费收取标准</a></dd>
+				<dd><a href="javascript:;">海外配送</a></dd>
+			</dl>
+			<dl>
+				<dt>支付方式</dt>
+				<dd><a href="javascript:;">货到付款</a></dd>
+				<dd><a href="javascript:;">在线支付</a></dd>
+				<dd><a href="javascript:;">分期付款</a></dd>
+				<dd><a href="javascript:;">邮局汇款</a></dd>
+				<dd><a href="javascript:;">公司转账</a></dd>
+			</dl>
+			<dl>
+				<dt>售后服务</dt>
+				<dd><a href="javascript:;">售后政策</a></dd>
+				<dd><a href="javascript:;">价格保护</a></dd>
+				<dd><a href="javascript:;">退款说明</a></dd>
+				<dd><a href="javascript:;">返修/退换货</a></dd>
+				<dd><a href="javascript:;">取消订单</a></dd>
+			</dl>
+			<dl>
+				<dt>特色服务</dt>
+				<dd><a href="javascript:;">夺宝岛</a></dd>
+				<dd><a href="javascript:;">DIY装机</a></dd>
+				<dd><a href="javascript:;">延保服务</a></dd>
+				<dd><a href="javascript:;">京东E卡</a></dd>
+				<dd><a href="javascript:;">京东通信</a></dd>
+				<dd><a href="javascript:;">京东JD+</a></dd>
+			</dl>
+			<dl class="dl_last">
+				<dt>京东自营覆盖区县</dt>
+				<dd class="long">京东已向全国2654个区县提供自营配送服务，支持货到付款、POS机刷卡和售后上门服务。</dd>
+				<dd class="na"><a href="javascript:;">查看详情></a></dd>
+			</dl>
+		</div>
+		<!--尾部-->
+		<div class="bottom inner">
+			<ul class="bot_list clearfix">
+				<li><a href="javascript:;">关于我们</a>|</li>
+				<li><a href="javascript:;">联系我们</a>|</li>
+				<li><a href="javascript:;">联系客服</a>|</li>
+				<li><a href="javascript:;">商家入驻</a>|</li>
+				<li><a href="javascript:;">营销中心</a>|</li>
+				<li><a href="javascript:;">手机京东</a>|</li>
+				<li><a href="javascript:;">友情链接</a>|</li>
+				<li><a href="javascript:;">京东社区</a>|</li>
+				<li><a href="javascript:;">风险监测</a>|</li>
+				<li><a href="javascript:;">京东公益</a>|</li>
+				<li><a href="javascript:;">English Site</a>|</li>
+				<li><a href="javascript:;">Contact Us</a></li>
+			</ul>
+			<ul class="copyright">
+				<li class="first"><a href="javascript:;">京公网安备11000002000088号</a> | 京ICP证070359号 | <a href="javascript:;">互联网药品信息服务资格证编号(京)-经营性-2014-0008</a>|新出发京零 字第大120007号</li>
+				<li>互联网出版许可证编号新出网证(京)字150号 | <a href="javascript:;">出版物经营许可证</a> | <a href="javascript:;">网络文化经营许可证京网文[2014]2148-348号 </a> | 违法和不良信息举报电话：4006561155</li>
+				<li>Copyright ? 2004 - 2016 京东JD.com 版权所有 | 消费者维权热线：4006067733</li>
+				<li>京东旗下网站：<a href="javascript:;">京东钱包</a></li>
+			</ul>
+			<ul class="f_icon clearfix">
+				<li><a href="javascript:;"><img src="images/cn_web_image01.png"></a></li>
+				<li><a href="javascript:;"><img src="images/cn_web_image02.png"></a></li>
+				<li><a href="javascript:;"><img src="images/cn_web_image03.png"></a></li>
+				<li><a href="javascript:;"><img src="images/cn_web_image04.jpg"></a></li>
+				<li><a href="javascript:;"><img src="images/cn_web_image05.jpg"></a></li>
+				<li><a href="javascript:;"><img src="images/cn_web_image06.jpg"></a></li>
+			</ul>
+			
+			
+		</div>
+		
+		
+	</body>
+</html>
